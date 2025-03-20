@@ -60,7 +60,7 @@ def load_pipeline() -> object:
         The loaded pipeline.
     """
     pipeline_paths = [
-        os.path.join("models", "best_lung_cancer_model.joblib"),
+        os.path.join("lung-cancer/best_lung_cancer_model.joblib"),
         "best_lung_cancer_model.joblib"
     ]
     for path in pipeline_paths:

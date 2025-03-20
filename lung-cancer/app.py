@@ -27,7 +27,7 @@ def load_dataset() -> pd.DataFrame:
     Returns:
         pd.DataFrame: The loaded dataset.
     """
-    file_paths = ['lung_cancer.csv', 'Lung Cancer Dataset.csv']
+    file_paths = ['lung-cancer/Lung Cancer Dataset.csv']
     for path in file_paths:
         if os.path.exists(path):
             return pd.read_csv(path)

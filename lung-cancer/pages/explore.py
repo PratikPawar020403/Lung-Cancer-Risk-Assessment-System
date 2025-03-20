@@ -26,7 +26,7 @@ def load_dataset() -> pd.DataFrame:
         pd.DataFrame: Loaded dataset.
     """
     try:
-        return pd.read_csv('lung_cancer.csv')
+        return pd.read_csv('lung-cancer/Lung Cancer Dataset.csv')
     except FileNotFoundError:
         return pd.read_csv('Lung Cancer Dataset.csv')
 
